@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Ceremonious One';
+    src: url('CeremoniousOne.eot');
+    src: local('Ceremonious One'), local('CeremoniousOne'),
+        url('CeremoniousOne.eot?#iefix') format('embedded-opentype'),
+        url('CeremoniousOne.woff2') format('woff2'),
+        url('CeremoniousOne.woff') format('woff'),
+        url('CeremoniousOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Regular.eot');
+    src: local('PFDinTextCondPro-Regular'),
+        url('PFDinTextCondPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-Regular.woff2') format('woff2'),
+        url('PFDinTextCondPro-Regular.woff') format('woff'),
+        url('PFDinTextCondPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Cond Pro';
+    src: url('PFDinTextCondPro-Medium.eot');
+    src: local('PFDinTextCondPro-Medium'),
+        url('PFDinTextCondPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PFDinTextCondPro-Medium.woff2') format('woff2'),
+        url('PFDinTextCondPro-Medium.woff') format('woff'),
+        url('PFDinTextCondPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
