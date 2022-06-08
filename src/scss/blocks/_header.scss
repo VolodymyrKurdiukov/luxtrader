@@ -26,9 +26,6 @@
 		padding: 7px 2px 12px 15px;
 	}
 
-	&__column {
-	}
-
 	&__logo {
 		position: relative;
 		z-index: 3;
@@ -37,8 +34,10 @@
 	}
 
 	&__menu {
+		.header__region {
+			display: none;
+		}
 	}
-
 	&__list {
 		display: flex;
 		position: relative;
@@ -66,7 +65,8 @@
 		min-width: 18px;
 		min-height: 18px;
 		padding: 15px 0px 0px 40px;
-		background: url("../img/icons/region.png") left 3px no-repeat;
+		line-height: 18px;
+		background: url("../img/icons/region.png") left 2px no-repeat;
 		z-index: 2;
 		@extend .header__link;
 	}
@@ -79,19 +79,26 @@
 }
 
 .user {
-	position: relative;
-	&__row {
+	cursor: pointer;
+	&__list {
+		opacity: 0;
+		visibility: hidden;
 		position: absolute;
-		top: 68px;
+		top: 30px;
 		left: -140px;
-		background-color: #1c242a;
 		width: 180px;
 		height: 130px;
-	}
-
-	&__list {
-		padding: 8px 30px 25px 0px;
+		padding: 18px 0px;
+		transition: all 0.3s ease;
 		li {
+			background-color: #1c242a;
+			padding: 4px 12px;
+		}
+		&.active {
+			top: 50px;
+			opacity: 1;
+			visibility: visible;
+			transition: all 0.3s ease;
 		}
 	}
 

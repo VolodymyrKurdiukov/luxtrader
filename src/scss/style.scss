@@ -1,8 +1,8 @@
 @import "base/null.scss";
+@import "base/variables";
 @import "base/fonts";
 @import "base/btn";
 @import "base/links";
-@import "base/variables";
 
 * {
 	font-family: "PT Sans", sans-serif;
@@ -50,7 +50,9 @@
 // }
 
 @import "blocks/header";
+@import "blocks/main_slider";
 @import "blocks/footer";
 
 @import "media/header_media";
+@import "media/main_slider_media";
 @import "media/footer_media";
