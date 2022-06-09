@@ -1,0 +1,281 @@
+.trade {
+	padding: 85px 0px 0px 0px;
+	&__container {
+		text-align: center;
+	}
+	&__header {
+	}
+
+	&__decor {
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__row {
+		display: flex;
+		margin: 0px -50px 25px -50px;
+		.slick-track {
+			align-items: stretch;
+		}
+	}
+	&__column {
+		padding: 0px 50px;
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__item {
+	}
+	&__control {
+	}
+}
+
+.item-trade {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	&__body {
+		position: relative;
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__img {
+		padding: 0px 0px 100% 0px;
+	}
+
+	&__timer {
+	}
+
+	&__title {
+		flex: 1 1 auto;
+		position: relative;
+		z-index: 2;
+		font-family: "PF Din Text Cond Pro";
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 25px;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: none;
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__link {
+		font-family: "PF Din Text Cond Pro";
+		font-size: 19px;
+		font-weight: 500;
+		line-height: 50px;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+	}
+	&__bets {
+		margin: 0px 0px 25px 0px;
+	}
+}
+
+.timer {
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	transform: translate(-50%);
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -8px;
+		left: 50%;
+		transform: translate(-50%) rotate(45deg);
+		background-color: #fff;
+		width: 100%;
+		height: 100%;
+	}
+	&__icon {
+		z-index: 2;
+		position: relative;
+		margin: 5px 0px 5px 0px;
+	}
+
+	&__timer {
+		position: relative;
+		z-index: 2;
+		font-family: "PT Sans Narrow", sans-serif;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+	}
+}
+
+.bets {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	z-index: 2;
+	&::after {
+		content: "";
+		position: absolute;
+		top: 11px;
+		left: 50%;
+		transform: translate(-50%) rotate(45deg);
+		border: 1px solid #bb9c66;
+		width: 72px;
+		height: 72px;
+		z-index: -1;
+	}
+	&__left {
+	}
+
+	&__center {
+	}
+	&__right {
+	}
+}
+.left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__icon {
+		width: 18px;
+		height: 18px;
+		position: relative;
+		z-index: 2;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px 0px 4px 0px;
+		&::before {
+			content: "";
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #1c242a;
+			transform: rotate(45deg);
+		}
+	}
+	&__number {
+		line-height: 25px;
+		text-align: center;
+		position: relative;
+		width: 50px;
+		&:after {
+			content: "";
+			width: 100%;
+			height: 1px;
+			background-color: $main-color;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+		}
+	}
+}
+.right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__icon {
+		width: 18px;
+		height: 18px;
+		position: relative;
+		z-index: 2;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0px 0px 4px 0px;
+		padding: 0px 0px 0px 2px;
+		&::before {
+			content: "";
+			z-index: -1;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #1c242a;
+			transform: rotate(45deg);
+		}
+	}
+	&__number {
+		line-height: 25px;
+		text-align: center;
+		position: relative;
+		width: 50px;
+		&:after {
+			content: "";
+			width: 100%;
+			height: 1px;
+			background-color: $main-color;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+		}
+	}
+}
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	&__current {
+		line-height: 25px;
+		text-align: center;
+		margin: 0px 0px 15px 0px;
+	}
+
+	&__price {
+		color: #1c242a;
+		font-family: "BravoRG";
+		font-size: 50px;
+		line-height: 21px;
+		text-align: center;
+		margin: 0px 0px 15px 0px;
+		text-decoration: none;
+	}
+
+	&__rub {
+		padding: 0px 0px 0px 3px;
+	}
+}
+
+.control-trade {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	&__arrow {
+		position: relative;
+		cursor: pointer;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	&__arrow-l {
+	}
+	&__decor {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 100%;
+		width: 100px;
+		height: 100px;
+		border: 3px solid #bb9c66;
+		text-decoration: none;
+		font-family: "PF Din Text Cond Pro";
+		font-size: 21px;
+		font-weight: 500;
+		line-height: 25px;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0px 25px;
+	}
+	&__arrow-r {
+		&::after {
+			content: "";
+			left: 0;
+		}
+	}
+}

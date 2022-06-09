@@ -19,6 +19,31 @@ $(document).ready(function () {
 		nextArrow: document.querySelector('.control__arrow-r'),
 		prevArrow: document.querySelector('.control__arrow-l')
 	});
+	$('.trade__row').slick({
+		// infinite: true,
+		// autoplay: true,
+		// autoplaySpeed: 5000,
+		arrows: true,
+		speed: 1200,
+		slidesToShow: 3,
+		adaptiveHeight: true,
+		nextArrow: document.querySelector('.control-trade__arrow-l'),
+		prevArrow: document.querySelector('.control-trade__arrow-r'),
+		responsive: [
+			{
+				breakpoint: 991.98,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 575.98,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
+	});
 });
 //==================================================================================================
 
