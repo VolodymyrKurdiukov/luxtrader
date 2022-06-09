@@ -1,24 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 //font-family: 'PT Sans', sans-serif;
 //font-family: 'PT Sans Narrow', sans-serif;
+
 @font-face {
 	font-family: "BravoRG";
-	src: url("../../fonts/BravoRG.eot");
-	src: local("../../fonts/BravoRG Regular"), local("BravoRG"),
-		url("../../fonts/BravoRG.eot?#iefix") format("embedded-opentype"),
-		url("../../fonts/BravoRG.woff2") format("woff2"), url("../../fonts/BravoRG.woff") format("woff"),
-		url("../../fonts/BravoRG.ttf") format("truetype");
+	src: url("../fonts/BravoRG.eot");
+	src: url("../fonts/BravoRG.eot?#iefix") format("embedded-opentype"), url("../fonts/BravoRG.woff2") format("woff2"),
+		url("../fonts/BravoRG.woff") format("woff"), url("../fonts/BravoRG.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: "Ceremonious One";
-	src: url("../../fonts/CeremoniousOne.eot");
-	src: local("../../fonts/Ceremonious One"), local("CeremoniousOne"),
-		url("../../fonts/CeremoniousOne.eot?#iefix") format("embedded-opentype"),
-		url("../../fonts/CeremoniousOne.woff2") format("woff2"), url("../../fonts/CeremoniousOne.woff") format("woff"),
-		url("../../fonts/CeremoniousOne.ttf") format("truetype");
+	src: url("../fonts/CeremoniousOne.eot");
+	src: url("../fonts/CeremoniousOne.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/CeremoniousOne.woff2") format("woff2"), url("../fonts/CeremoniousOne.woff") format("woff"),
+		url("../fonts/CeremoniousOne.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -26,12 +25,11 @@
 
 @font-face {
 	font-family: "PF Din Text Cond Pro";
-	src: url("../../fonts/PFDinTextCondPro-Regular.eot");
-	src: local("../../fonts/PFDinTextCondPro-Regular"),
-		url("../../fonts/PFDinTextCondPro-Regular.eot?#iefix") format("embedded-opentype"),
-		url("../../fonts/PFDinTextCondPro-Regular.woff2") format("woff2"),
-		url("../../fonts/PFDinTextCondPro-Regular.woff") format("woff"),
-		url("../../fonts/PFDinTextCondPro-Regular.ttf") format("truetype");
+	src: url("../fonts/PFDinTextCondPro-Regular.eot");
+	src: url("../fonts/PFDinTextCondPro-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/PFDinTextCondPro-Regular.woff2") format("woff2"),
+		url("../fonts/PFDinTextCondPro-Regular.woff") format("woff"),
+		url("../fonts/PFDinTextCondPro-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -39,12 +37,11 @@
 
 @font-face {
 	font-family: "PF Din Text Cond Pro";
-	src: url("../../fonts/PFDinTextCondPro-Medium.eot");
-	src: local("../../fonts/PFDinTextCondPro-Medium"),
-		url("../../fonts/PFDinTextCondPro-Medium.eot?#iefix") format("embedded-opentype"),
-		url("../../fonts/PFDinTextCondPro-Medium.woff2") format("woff2"),
-		url("../../fonts/PFDinTextCondPro-Medium.woff") format("woff"),
-		url("../../fonts/PFDinTextCondPro-Medium.ttf") format("truetype");
+	src: url("../fonts/PFDinTextCondPro-Medium.eot");
+	src: url("../fonts/PFDinTextCondPro-Medium.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/PFDinTextCondPro-Medium.woff2") format("woff2"),
+		url("../fonts/PFDinTextCondPro-Medium.woff") format("woff"),
+		url("../fonts/PFDinTextCondPro-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
