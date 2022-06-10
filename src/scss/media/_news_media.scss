@@ -1,0 +1,24 @@
+@media (min-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+	.news {
+		&__row {
+			justify-content: center;
+			align-items: center;
+		}
+		&__column {
+			flex: 1 1 100%;
+		}
+	}
+	.body-news {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+}

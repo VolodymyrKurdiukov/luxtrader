@@ -1,0 +1,64 @@
+.news {
+	&__container {
+	}
+
+	&__row {
+		display: flex;
+		margin: 0px -25px;
+		flex-wrap: wrap;
+	}
+
+	&__column {
+		flex: 0 0 50%;
+		padding: 0px 25px;
+	}
+
+	&__item {
+	}
+}
+
+.item-news {
+	&__title-l {
+		background: url("../img/icons/news_01.png") left no-repeat;
+	}
+
+	&__body {
+	}
+
+	&__title {
+		font-family: "PF Din Text Cond Pro";
+		font-size: 35px;
+		font-weight: 500;
+		line-height: 25px;
+		text-transform: uppercase;
+		letter-spacing: 3.5px;
+		padding: 0px 0px 0px 35px;
+		height: 26px;
+		margin: 0px 0px 35px 0px;
+	}
+
+	&__title-r {
+		background: url("../img/icons/news_02.png") left no-repeat;
+	}
+}
+.body-news {
+	width: 412px;
+	margin: 0px 0px 40px 0px;
+	&__date {
+		font-size: 12px;
+		color: $main-color;
+		margin: 0px 0px 10px 0px;
+	}
+
+	&__link {
+		display: inline-block;
+		color: #333333;
+		font-size: 15px;
+		font-weight: 700;
+		text-decoration: underline;
+		margin: 0px 0px 10px 0px;
+	}
+
+	&__text {
+	}
+}
