@@ -1,0 +1,39 @@
+@media (min-width: 991.98px) {
+	.item-services {
+		&__link {
+			&:hover {
+				color: $main-color;
+				text-shadow: 1px 1px 5px $main-color;
+			}
+		}
+	}
+}
+@media (max-width: 1199.98px) {
+}
+@media (max-width: 991.98px) {
+	.services {
+		&__row {
+			margin: 0px -20px;
+		}
+		&__column {
+			padding: 0px 20px;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	.services {
+		&__column {
+			flex: 0 0 50%;
+			margin: 0px 0px 20px 0px;
+		}
+	}
+}
+
+@media (max-width: 574.98px) {
+	.services {
+		&__column {
+			flex: 1 1 100%;
+		}
+	}
+}

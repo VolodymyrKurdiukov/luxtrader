@@ -27,8 +27,8 @@
 		font-size: 35px;
 		text-transform: uppercase;
 		letter-spacing: 5.25px;
-		&-b{
-			color:#000;
+		&-b {
+			color: #000;
 		}
 		@media (max-width: 574.98px) {
 			font-size: 26px;
@@ -39,7 +39,7 @@
 .decor-block {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	&__line {
 		img {
 			height: 100%;
