@@ -1,0 +1,31 @@
+.text {
+	padding: 50px 0px 0px 0px;
+
+	&__text {
+		color: #333333;
+		font-size: 15px;
+		line-height: 25px;
+		padding: 0px 0px 0px 130px;
+		background: url("../img/text_decor.png") left top repeat-y;
+		position: relative;
+		@media (max-width: 575.98px) {
+			text-align: justify;
+			padding: 0px 0px 0px 95px;
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			top: -7px;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			background: url("../img/text_decor-top.png") left top no-repeat;
+		}
+		p {
+			margin: 0px 0px 35px 0px;
+			&:last-child {
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+}
