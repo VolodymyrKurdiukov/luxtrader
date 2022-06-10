@@ -1,7 +1,7 @@
 @media (min-width: 991.98px) {
 	.item-categories {
-		&__icon{
-			&:hover{
+		&__body {
+			&:hover {
 				transform: scale(1.1);
 			}
 		}
@@ -10,10 +10,44 @@
 @media (max-width: 1199.98px) {
 }
 @media (max-width: 991.98px) {
+	.categories {
+		&__container {
+			padding: 39px 0px 0px 0px;
+			&::before {
+				display: none;
+			}
+			&::after {
+				right: 50%;
+				transform: rotate(45deg) translateX(64%);
+			}
+		}
+		&__column {
+			flex: 0 0 50%;
+		}
+	}
 }
 
 @media (max-width: 767.98px) {
+	.categories {
+		&__row {
+			margin: 0px -15px;
+		}
+		&__column {
+			padding: 0px 15px 25px 15px;
+		}
+	}
 }
 
 @media (max-width: 574.98px) {
+	.categories {
+		padding: 0px 0px 0px 0px;
+		&__column {
+			flex: 0 0 100%;
+		}
+		&__container {
+			&::after {
+				display: none;
+			}
+		}
+	}
 }
