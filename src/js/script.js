@@ -44,6 +44,16 @@ $(document).ready(function () {
 			}
 		]
 	});
+	$('.quotes__row').slick({
+		// infinite: true,
+		// autoplay: true,
+		// autoplaySpeed: 3000,
+		arrows: true,
+		adaptiveHeight: true,
+		speed: 1200,
+		nextArrow: document.querySelector('.control-quotes__decor'),
+		prevArrow: false
+	});
 });
 //==================================================================================================
 
