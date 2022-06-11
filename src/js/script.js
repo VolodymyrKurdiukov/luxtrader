@@ -54,6 +54,25 @@ $(document).ready(function () {
 		nextArrow: document.querySelector('.control-quotes__decor'),
 		prevArrow: false
 	});
+
+	$("a[href^='#']").click(function () {
+		const _href = $(this).attr("href");
+		$("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+		return false;
+	});
+
+	// $("a").on('click', function (event) {
+	// 	if (this.hash !== "") {
+	// 		event.preventDefault();
+	// 		var hash = this.hash;
+	// 		$('html, body').animate({
+	// 			scrollTop: $(hash).offset().top
+	// 		}, 800, function () {
+	// 			window.location.hash = hash;
+	// 		});
+	// 	}
+	// });
+
 });
 //==================================================================================================
 

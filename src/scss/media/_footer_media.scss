@@ -21,8 +21,33 @@
 		&__row {
 			flex-direction: column;
 		}
+		&__list{
+			align-items: center;
+			justify-content: center;
+			width: 500px;
+			margin: 0px 0px 10px 0px;
+		}
+		&__logo{
+			margin: 0px 0px 5px 0px;
+		}
+		&__policy{
+			margin: 0px 0px 10px 0px;
+		}
+		&__connecting{
+			display: block;
+			text-align: center;
+		}
+		&__connect{
+			text-align: center;
+			margin: 10px 0px 0px 0px;
+		}
 	}
 }
 
 @media (max-width: 575.98px) {
+	.footer{
+		&__list{
+			width: 100%;
+		}
+	}
 }
